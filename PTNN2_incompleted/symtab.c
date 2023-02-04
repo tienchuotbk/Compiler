@@ -314,7 +314,7 @@ void exitBlock(void) {
 }
 
 Object* lookupObject(char *name) {
-  // TODO
+  
 }
 
 void declareObject(Object* obj) {
