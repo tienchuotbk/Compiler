@@ -1,6 +1,6 @@
 [Project]
-FileName=Semantic3D.dev
-Name=Semantic3D
+FileName=Semantic3D_Complete.dev
+Name=Semantic3D_Complete
 Type=1
 Ver=2
 ObjFiles=
@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0000000000000000000000000
-UnitCount=21
+UnitCount=23
 
 [VersionInfo]
 Major=1
@@ -111,6 +111,42 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit7]
+FileName=example3.kpl
+Folder=
+Compile=0
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit8]
+FileName=example4.kpl
+Folder=
+Compile=0
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit9]
+FileName=example5.kpl
+Folder=
+Compile=0
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit10]
+FileName=example6.kpl
+Folder=
+Compile=0
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit11]
 FileName=main.c
 CompileCpp=0
 Folder=
@@ -120,7 +156,7 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit8]
+[Unit12]
 FileName=parser.c
 CompileCpp=0
 Folder=
@@ -130,7 +166,7 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit9]
+[Unit13]
 FileName=parser.h
 CompileCpp=0
 Folder=
@@ -140,7 +176,7 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit10]
+[Unit14]
 FileName=reader.c
 CompileCpp=0
 Folder=
@@ -150,7 +186,7 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit11]
+[Unit15]
 FileName=reader.h
 CompileCpp=0
 Folder=
@@ -160,7 +196,7 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit12]
+[Unit16]
 FileName=scanner.c
 CompileCpp=0
 Folder=
@@ -170,7 +206,7 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit13]
+[Unit17]
 FileName=scanner.h
 CompileCpp=0
 Folder=
@@ -180,7 +216,7 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit14]
+[Unit18]
 FileName=semantics.c
 CompileCpp=0
 Folder=
@@ -190,7 +226,7 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit15]
+[Unit19]
 FileName=semantics.h
 CompileCpp=0
 Folder=
@@ -200,7 +236,7 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit16]
+[Unit20]
 FileName=symtab.c
 CompileCpp=0
 Folder=
@@ -210,7 +246,7 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit17]
+[Unit21]
 FileName=symtab.h
 CompileCpp=0
 Folder=
@@ -220,7 +256,7 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit18]
+[Unit22]
 FileName=token.c
 CompileCpp=0
 Folder=
@@ -230,30 +266,12 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit19]
+[Unit23]
 FileName=token.h
 CompileCpp=0
 Folder=
 Compile=1
 Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit20]
-FileName=example2.kpl
-Folder=
-Compile=0
-Link=0
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit21]
-FileName=example3.kpl
-Folder=
-Compile=0
-Link=0
 Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
